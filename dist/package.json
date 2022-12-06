@@ -5,8 +5,7 @@
     "scripts": {
       "dev": "vite",
       "build": "vite build",
-      "preview": "vite preview",
-      "start": "node index.html"
+      "preview": "vite preview"
     },
     "dependencies": {
       "axios": "^1.0.0",
@@ -23,7 +22,7 @@
     },
     "engines" : { 
     "npm" : ">=8.0.0 <9.5.0",
-    "node" : ">=16.0.0 <20.0.0"
+    "node" : ">=10.0.0 <20.0.0"
   }
   }
     

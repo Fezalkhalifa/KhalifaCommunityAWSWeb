@@ -5,7 +5,7 @@ phases:
     commands:
       - npm config set user 0
       - npm config set unsafe-perm true
-      - npm install
+      - npm ci
     build:
     commands:
       - npm run build
@@ -16,3 +16,6 @@ artifacts:
   files:
     - '**/*'
   base-directory: dist
+cache:
+    paths:
+      - node_modules/**/*
