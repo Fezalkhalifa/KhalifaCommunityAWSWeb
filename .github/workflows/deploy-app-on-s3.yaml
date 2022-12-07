@@ -19,7 +19,9 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - name: Install Dependencies
-        run: npm install
+        run: npm config set user 0
+             npm config set unsafe-perm true
+             npm install
       - name: Build Application
         run: npm run-script build
       - uses: jakejarvis/s3-sync-action@master
