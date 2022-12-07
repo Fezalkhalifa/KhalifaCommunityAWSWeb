@@ -7,7 +7,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     env:
-      AWS_S3_BUCKET_NAME: github-action-1233456sdflkga
+      AWS_S3_BUCKET_NAME: myawsprojbucket
       AWS_CF_DISTRIBUTION_ID: E13LLKWJFZPWDG
     strategy:
       matrix:
