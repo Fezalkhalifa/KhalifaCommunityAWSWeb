@@ -6,7 +6,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "start": "npm start"
+    "start": "npm run serve"
   },
   "dependencies": {
     "axios": "^1.0.0",
