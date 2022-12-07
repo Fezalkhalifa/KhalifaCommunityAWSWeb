@@ -5,7 +5,7 @@ phases:
     commands:
       - npm config set user 0
       - npm config set unsafe-perm true
-      - npm install
+      - npm install -g serve
     build:
     commands:
       - npm config set user 0
