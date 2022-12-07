@@ -23,7 +23,9 @@ jobs:
              npm config set unsafe-perm true
              npm install
       - name: Build Application
-        run: npm run-script build
+        run: npm config set user 0
+             npm config set unsafe-perm true
+             npm run-script build
       - uses: jakejarvis/s3-sync-action@master
         name: Upload App to S3 Bucket
         with:
